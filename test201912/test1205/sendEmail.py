@@ -4,12 +4,12 @@ import time
 from test201912.test1205.readYaml import ReadYaml
 
 
-'''
-zmail是一个用于收发邮件的python扩展包
-'''
-
-
 class SendEmail:
+    '''
+    zmail是一个用于收发邮件的python扩展包
+    该类主要通过zmil实现发送邮件功能
+    实例化该类支持可选参数defultPath的传递，若传递则邮件附件使用传递的路径文件，若不传递则使用该页面默认的路径文件
+    '''
 
     cwd = os.getcwd()  # 当前文件所在文件夹地址
     # root = os.path.dirname(cwd)  # 父级目录
