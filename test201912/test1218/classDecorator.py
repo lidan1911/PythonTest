@@ -1,4 +1,5 @@
 
+# 类装饰器
 class A(object):
     def __init__(self, param=1):
         self.param = param

@@ -1,6 +1,6 @@
 import time
 
-
+# 带参数装饰器
 def runtime(slowly=1):
     def wrapper(func):
         def inner_wrapper(*args, **kwargs):
