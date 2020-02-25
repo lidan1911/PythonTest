@@ -13,5 +13,4 @@ print(r.status_code)   # 302  若请求不设置allow_redirects=False，，会�
 
 
 print("r.headers信息：%s \n获取r.headers里面的重定向地址：%s" % (r.headers, r.headers["Location"]))
-print("===")
 
