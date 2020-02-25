@@ -53,7 +53,7 @@ print("dic类型：", type(dic))  # dic类型： <class 'dict'>
 str = json.dumps(dic)  # dic 转 json
 print("dict转json后类型：%s，数据值：%s" % (type(str), str))  # dic转json后类型：<class 'str'>，数据值：{"student1": {"name": "lidan", "age": 20, "sex": "\u5973"}, "student2": {"name": "zhangsan", "age": 15, "sex": "\u7537"}}
 
-dic2 = json.loads(str)  # json 转 dic
+dic2 = json.loads(str)  # json 转 dic  
 print("json转dict后类型：%s，数据值：%s" % (type(dic2), dic2))  # json转dict后类型：<class 'dict'>，数据值：{'student1': {'name': 'lidan', 'age': 20, 'sex': '女'}, 'student2': {'name': 'zhangsan', 'age': 15, 'sex': '男'}}
 
 
